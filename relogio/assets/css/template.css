@@ -56,7 +56,7 @@ body {
     background-color: transparent;
     z-index: 1;
 }
-.outer-clock .marking-seconds {
+.outer-clock .marking-seconds::before {
     content: "";
     position: absolute;
     width: 6px;
